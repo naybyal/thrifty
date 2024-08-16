@@ -25120,7 +25120,7 @@ function App() {
                         className: "header-title",
                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
                             href: "/",
-                            children: "instantsearch-app"
+                            children: "Thrifty!"
                         }, void 0, false, {
                             fileName: "src/App.tsx",
                             lineNumber: 30,
@@ -25132,20 +25132,8 @@ function App() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                        className: "header-subtitle",
-                        children: [
-                            "using",
-                            ' ',
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                href: "https://github.com/algolia/instantsearch/tree/master/packages/react-instantsearch",
-                                children: "React InstantSearch"
-                            }, void 0, false, {
-                                fileName: "src/App.tsx",
-                                lineNumber: 34,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                        children: "For the best thrift deals online!"
+                    }, void 0, false, {
                         fileName: "src/App.tsx",
                         lineNumber: 32,
                         columnNumber: 9
@@ -25167,7 +25155,7 @@ function App() {
                             hitsPerPage: 8
                         }, void 0, false, {
                             fileName: "src/App.tsx",
-                            lineNumber: 46,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -25177,7 +25165,7 @@ function App() {
                                     className: "search-panel__filters"
                                 }, void 0, false, {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 48,
+                                    lineNumber: 45,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -25188,49 +25176,49 @@ function App() {
                                             className: "searchbox"
                                         }, void 0, false, {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 51,
+                                            lineNumber: 48,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactInstantsearch.Hits, {
                                             hitComponent: Hit
                                         }, void 0, false, {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 52,
+                                            lineNumber: 49,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                             className: "pagination",
                                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactInstantsearch.Pagination, {}, void 0, false, {
                                                 fileName: "src/App.tsx",
-                                                lineNumber: 55,
+                                                lineNumber: 52,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 51,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 47,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/App.tsx",
-                            lineNumber: 47,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/App.tsx",
-                    lineNumber: 41,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 40,
+                lineNumber: 37,
                 columnNumber: 7
             }, this)
         ]
@@ -25249,7 +25237,7 @@ function Hit({ hit  }) {
                 alt: hit.name
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 72,
+                lineNumber: 69,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -25257,6 +25245,20 @@ function Hit({ hit  }) {
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactInstantsearch.Highlight, {
                             attribute: "name",
+                            hit: hit
+                        }, void 0, false, {
+                            fileName: "src/App.tsx",
+                            lineNumber: 72,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 71,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactInstantsearch.Highlight, {
+                            attribute: "type",
                             hit: hit
                         }, void 0, false, {
                             fileName: "src/App.tsx",
@@ -25270,7 +25272,7 @@ function Hit({ hit  }) {
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactInstantsearch.Highlight, {
-                            attribute: "type",
+                            attribute: "shipping",
                             hit: hit
                         }, void 0, false, {
                             fileName: "src/App.tsx",
@@ -25281,31 +25283,17 @@ function Hit({ hit  }) {
                         fileName: "src/App.tsx",
                         lineNumber: 77,
                         columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactInstantsearch.Highlight, {
-                            attribute: "shipping",
-                            hit: hit
-                        }, void 0, false, {
-                            fileName: "src/App.tsx",
-                            lineNumber: 81,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/App.tsx",
-                        lineNumber: 80,
-                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 73,
+                lineNumber: 70,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.tsx",
-        lineNumber: 71,
+        lineNumber: 68,
         columnNumber: 5
     }, this);
 }

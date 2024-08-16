@@ -27,13 +27,10 @@ export function App() {
     <div>
       <header className="header">
         <h1 className="header-title">
-          <a href="/">instantsearch-app</a>
+          <a href="/">Thrifty!</a>
         </h1>
-        <p className="header-subtitle">
-          using{' '}
-          <a href="https://github.com/algolia/instantsearch/tree/master/packages/react-instantsearch">
-            React InstantSearch
-          </a>
+        <p>
+          For the best thrift deals online!
         </p>
       </header>
 
