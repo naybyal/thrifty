@@ -43,11 +43,9 @@ export function App() {
           <Configure hitsPerPage={8} />
           <div className="search-panel">
             <div className="search-panel__filters"></div>
-
             <div className="search-panel__results">
               <SearchBox placeholder="" className="searchbox" />
               <Hits hitComponent={Hit} />
-
               <div className="pagination">
                 <Pagination />
               </div>
